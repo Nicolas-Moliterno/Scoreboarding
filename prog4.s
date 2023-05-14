@@ -1,0 +1,13 @@
+.integer 2 1
+.mult 2 4
+.add 1 2
+.div 1 16
+FLD F1, 100(X7)
+FMUL F2, F3, F4
+ADDI X1, X2, X3
+FDIV F3, F1, F7
+FMUL F4, F2, F4
+FADD F2, F5, F3
+FSD F1, 200(X11)
+SUBI X2, X5, X6
+SW X1, 300(X13)
